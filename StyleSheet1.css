@@ -1,0 +1,114 @@
+﻿body {
+    box-sizing: border-box, ;
+}
+
+main {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.top-content {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+
+.top-content button {
+    color: hsl(31, 77%, 52%);
+}
+
+.middle-content {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.middle-content button {
+    color: hsl(184, 100%, 22%);
+}
+
+.end-content {
+    background-color: hsl(179, 100, 13%);
+    padding: 2em;
+}
+
+.end-content button {
+    color: hsl(179, 100%, 13%);
+}
+
+body {
+    box-sizing: border-box, ;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h3,
+header {
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: 15px;
+    text-align: left;
+}
+
+.img {
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.top-content {
+    background-color: hsl(31, 77%, 52%);
+    height: 50%;
+    padding: auto;
+}
+
+.middle-content {
+    background-color: hsl(184, 100%, 22%);
+    height: 50%;
+    padding: auto;
+}
+
+.end-content {
+    background-color: hsl(179, 100%, 13%);
+    height: 50%;
+    padding: auto;
+}
+
+button {
+    align-items: center;
+    border-radius: 20px;
+    height: 30px;
+    width: 50%;
+    border: none;
+    background-color: white;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1440px) {
+    .main {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .div {
+        width: 100%;
+    }
+}
